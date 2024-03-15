@@ -1,0 +1,28 @@
+.buttonList {
+    margin-top: 80px;
+    display: flex;
+    gap: 32px;
+}
+
+.buttonList a {
+    padding: 10px 21px 10px 21px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.buttonList a:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 320px) and (max-width: 435px) {
+    .buttonList {
+        margin-top: 0px;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}

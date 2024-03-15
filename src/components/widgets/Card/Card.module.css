@@ -1,0 +1,48 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 24px;
+    padding: 32px;
+}
+
+.buttonList {
+    display: flex;
+    gap: 24px;
+}
+
+.title {
+    margin-top: 24px;
+    display: flex;
+    width: 596px;
+    gap: 16px;
+    flex-direction: column;
+    font-family: 'Mulish';
+    font-weight: 400;
+}
+
+.title h3 {
+    font-size: 24px;
+}
+
+.title h2 {
+    font-size: 30px;
+}
+
+@media (min-width: 325px) and (max-width: 435px) {
+    .title {
+        width: 100%;
+    }
+
+    .title h3 {
+        font-size: 15px;
+    }
+
+    .title h2 {
+        font-size: 12px;
+    }
+}

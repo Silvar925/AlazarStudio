@@ -1,0 +1,12 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 58px;
+    width: 212px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: rgb(114, 72, 253);
+}
