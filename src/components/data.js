@@ -40,3 +40,57 @@ export const shop = [
         button: ['Логотип и фестивать']
     }
 ]
+
+export const service = [
+    {
+        count: '01',
+        color: '#7248FD',
+        title: 'ЛОГОТИП И ФИРСТИЛЬ',
+        img: 'service/serviceCard/01.png'
+    },
+    {
+        count: '02',
+        color: '#7248FD',
+        title: 'WEB-ДИЗАЙН',
+        img: 'service/serviceCard/02.png'
+    },
+    {
+        count: '03',
+        color: '#7248FD',
+        title: 'МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ',
+        img: 'service/serviceCard/03.png'
+    },
+    {
+        count: '04',
+        color: '#3454F5',
+        title: 'ПРЕЗЕНТАЦИИ',
+        img: 'service/serviceCard/04.png'
+    },
+    {
+        count: '05',
+        color: '#D894B6',
+        title: 'РЕКЛАМНАЯ ПРОДУКЦИЯ',
+        img: 'service/serviceCard/05.png'
+    },
+    {
+        count: '06',
+        color: '#7248FD',
+        title: 'ВИДЕО',
+        img: 'service/serviceCard/06.png'
+    }
+]
+
+export const interpreterList = [
+    {
+        img: 'aboutUS/interpreterList/profile.png',
+        text: `Одним из главных преимуществ нашей студии является индивидуальный подход к каждому клиенту.`
+    },
+    {
+        img: 'aboutUS/interpreterList/requirement.png',
+        text: `Мы внимательно изучаем потребности заказчика и предлагаем оптимальное решение, учитывая все особенности и требования бизнеса.`
+    },
+    {
+        img: 'aboutUS/interpreterList/shield.png',
+        text: `Все наши проекты проходят строгий контроль качества, а также тестирование на соответствие требованиям безопасности.`
+    },
+]

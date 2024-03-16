@@ -14,8 +14,7 @@
 
 @media (min-width: 325px) and (max-width: 435px) {   
     .container {
-        /* display: block; */
-        /* width: 100%; */
+        padding: 0 10px;
     }
 
     .cardList {

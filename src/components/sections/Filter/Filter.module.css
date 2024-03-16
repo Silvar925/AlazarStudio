@@ -1,7 +1,8 @@
 .buttonList {
-    margin-top: 80px;
+    margin-top: 30px;
     display: flex;
     gap: 32px;
+    margin-bottom: 30px;
 }
 
 .buttonList a {

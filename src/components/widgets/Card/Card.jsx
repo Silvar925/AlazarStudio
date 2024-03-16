@@ -2,7 +2,7 @@ import styles from "./Card.module.css"
 
 export const Card = ({ width, height, img, textTitle, children }) => {
     if (window.innerWidth >= 320 && window.innerWidth <= 435) {
-        width = '500px'   
+        width = '300px'   
     }
 
     return (

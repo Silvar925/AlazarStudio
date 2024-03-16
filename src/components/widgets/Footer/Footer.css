@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 65px;
+    margin-top: 220px;
+}
+
+footer p {
+    font-family: 'Mulish';
+    font-size: 24px;
+}
+
+@media (min-width: 325px) and (max-width: 435px) {
+    footer {
+        margin: 50px;
+    }
+    
+    footer p {
+        text-align: center;
+        font-family: 'Mulish';
+        font-size: 18px;
+    }
+}

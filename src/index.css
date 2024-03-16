@@ -10,3 +10,8 @@ li {
 a {
   text-decoration: none;
 }
+
+@font-face {
+  font-family: 'DaMiOne';
+  src: url('font/DaMiOne.ttf') format('truetype')
+}

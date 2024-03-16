@@ -34,15 +34,28 @@
 }
 
 @media (min-width: 325px) and (max-width: 435px) {
+    .cardContainer {
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+
     .title {
+        text-align: center;
+        margin-top: 10px;
+        align-items: center;
+        gap: 5px;
         width: 100%;
     }
 
     .title h3 {
-        font-size: 15px;
+        font-size: 16px;
+        text-align: center;
     }
 
     .title h2 {
-        font-size: 12px;
+        font-size: 16px;
     }
 }
