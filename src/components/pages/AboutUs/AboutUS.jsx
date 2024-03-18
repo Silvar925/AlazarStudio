@@ -4,8 +4,10 @@ import { interpreterList, ourTeam, thanks, qualification } from "../../data"
 import { BaseCard } from "../../widgets/BaseCard/BaseCard"
 import { Footer } from "../../widgets/Footer/Footer"
 import { SwiperContainer } from "../../sections/SwiperContainer/SwiperContainer"
+import { useState } from "react"
 
 export const AboutUS = () => {
+
     return (
         <>
             <Header />

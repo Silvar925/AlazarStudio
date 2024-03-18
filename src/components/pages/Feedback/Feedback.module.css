@@ -12,9 +12,10 @@
     width: 500px;
     height: 959px;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid var(--text-color);
     border-radius: 10px;
     padding: 40px 126px;
+    color: var(--text-color);
 
     font-family: 'Montserrat';
 }

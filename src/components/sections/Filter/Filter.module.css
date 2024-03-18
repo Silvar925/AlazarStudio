@@ -6,17 +6,18 @@
 }
 
 .buttonList a {
+    background-color: var(--background-color);
     padding: 10px 21px 10px 21px;
     font-family: 'Montserrat';
     font-weight: 500;
-    color: black;
-    border: 1px solid black;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     border-radius: 10px;
 }
 
 .buttonList a:hover {
-    background-color: black;
-    color: white;
+    background-color: var(--text-color);
+    color: var(--background-color);
 }
 
 @media (min-width: 320px) and (max-width: 435px) {

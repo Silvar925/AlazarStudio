@@ -12,13 +12,15 @@ a {
 }
 
 body {
-  --day-background-color: white;
-  --day-text-color: black;
+  --background-color: white;
+  --text-color: black;
+
+  background-color: var(--background-color)
 }
 
 body.dark {
-  --night-background-color: black;
-  --night-text-color: white;
+  --background-color: black;
+  --text-color: white;
 }
 
 
@@ -28,7 +30,7 @@ textarea {
 
   border: 1px solid rgb(120, 120, 120);
   border-radius: 10px;
-  background: rgb(255, 255, 255);
+  background: white;
   font-family: 'Montserrat';
   font-size: 18px;
   font-weight: 500;
