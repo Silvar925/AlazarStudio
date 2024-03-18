@@ -1,0 +1,61 @@
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 959px;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 40px 126px;
+
+    font-family: 'Montserrat';
+}
+
+.inputBox {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn button {
+    margin-top: 32px;
+    width: 232px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(114, 72, 253);
+}
+
+label {
+    margin-top: 32px;
+    display: flex;
+    width: 569px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+label {
+    width: 90%;
+    font-size: 14px;
+}
+
+@media (min-width: 325px) and (max-width: 435px) {
+    .card {
+        padding: 0;
+        width: 390px;
+        border: none;
+    }
+}

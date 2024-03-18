@@ -11,6 +11,49 @@ a {
   text-decoration: none;
 }
 
+body {
+  --day-background-color: white;
+  --day-text-color: black;
+}
+
+body.dark {
+  --night-background-color: black;
+  --night-text-color: white;
+}
+
+
+input,
+textarea {
+  padding: 10px;
+
+  border: 1px solid rgb(120, 120, 120);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.inputSize {
+  width: 569px;
+  height: 45px;
+}
+
+.textareaSize {
+  width: 569px;
+  height: 363px;
+}
+
+@media (min-width: 325px) and (max-width: 435px) {
+  .inputSize {
+    width: 100%;
+  }
+
+  .textareaSize {
+    width: 100%;
+  }
+}
+
 @font-face {
   font-family: 'DaMiOne';
   src: url('font/DaMiOne.ttf') format('truetype')

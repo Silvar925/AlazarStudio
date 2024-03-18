@@ -12,6 +12,7 @@
     text-align: center;
     width: 798px;
     gap: 32px;
+    line-height: 150%;
 
     font-family: 'Montserrat';
 }
@@ -28,4 +29,95 @@
 .interpreterList {
     display: flex;
     gap: 115px;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+}
+
+.card p {
+    width: 343px;
+    font-family: 'Montserrat';
+    text-align: center;
+    line-height: 150%;
+}
+
+.ourTeamContainer {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.ourTeamGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 35px;
+}
+
+.ourMissionСontainer {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 992px;
+    font-family: 'Montserrat';
+    border: 1px solid black;
+    padding: 37px 154px;
+    font-weight: 500;
+}
+
+.thanksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media (min-width: 325px) and (max-width: 435px) {
+    .banner img {
+        width: 350px;
+        height: 200px;
+    }
+
+    .aboutUS {
+        width: 100%;
+    }
+
+    .aboutUS h2 {
+        font-size: 18px;
+    }
+
+    .aboutUS p {
+        font-size: 16px;
+    }
+
+    .interpreterList {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .ourTeamGrid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .ourMissionСontainer {
+        width: 395px;
+        padding: 10px 10px;
+    }
+
+    .ourMissionСontainer p {
+        font-size: 14px;
+    }
 }

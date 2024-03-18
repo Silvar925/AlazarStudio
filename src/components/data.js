@@ -94,3 +94,79 @@ export const interpreterList = [
         text: `Все наши проекты проходят строгий контроль качества, а также тестирование на соответствие требованиям безопасности.`
     },
 ]
+
+
+export const ourTeam = [
+    {
+        img: 'aboutUS/outTeam/Azamat.png',
+        name: 'Азамат',
+        specialization: 'CEO',
+    },
+    {
+        img: 'aboutUS/outTeam/Azamat.png',
+        name: 'Азамат',
+        specialization: 'CEO',
+    },
+    {
+        img: 'aboutUS/outTeam/Azamat.png',
+        name: 'Азамат',
+        specialization: 'CEO',
+    },
+    {
+        img: 'aboutUS/outTeam/Azamat.png',
+        name: 'Азамат',
+        specialization: 'CEO',
+    },
+    {
+        img: 'aboutUS/outTeam/Azamat.png',
+        name: 'Азамат',
+        specialization: 'CEO',
+    },
+    {
+        img: 'aboutUS/outTeam/Azamat.png',
+        name: 'Азамат',
+        specialization: 'CEO',
+    },
+    {
+        img: 'aboutUS/outTeam/Azamat.png',
+        name: 'Азамат',
+        specialization: 'CEO',
+    },
+    {
+        img: 'aboutUS/outTeam/Azamat.png',
+        name: 'Азамат',
+        specialization: 'CEO',
+    },
+    {
+        img: 'aboutUS/outTeam/Azamat.png',
+        name: 'Азамат',
+        specialization: 'CEO',
+    },
+    {
+        img: 'aboutUS/outTeam/Azamat.png',
+        name: 'Азамат',
+        specialization: 'CEO',
+    },
+
+    {
+        img: 'aboutUS/outTeam/Azamat.png',
+        name: 'Азамат',
+        specialization: 'CEO',
+    },
+
+    {
+        img: 'aboutUS/outTeam/Azamat.png',
+        name: 'Азамат',
+        specialization: 'CEO',
+    },
+]
+
+export const thanks = {
+    title: 'Благодарности',
+    images: ['aboutUS/thanks/thanks1.png', 'aboutUS/thanks/thanks2.png', 'aboutUS/thanks/thanks3.png']
+}
+
+export const qualification = {
+    title: 'Квалификация',
+    images: ['aboutUS/qualification/qualification1.png', 'aboutUS/qualification/qualification2.png', 'aboutUS/qualification/qualification3.png']
+}
