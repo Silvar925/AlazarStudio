@@ -18,7 +18,6 @@ export const Service = () => {
                     })
                 }
             </div>
-
             <Footer />
         </>
     )

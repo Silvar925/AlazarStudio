@@ -20,6 +20,11 @@
     width: 420px;
 }
 
+.left a {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
 .left h2 {
     font-family: 'DaMiOne';
     font-size: 64px;
@@ -43,6 +48,14 @@
 
     .left {
         justify-content: center;
+    }
+
+    .left a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
     }
 
     .card img {
