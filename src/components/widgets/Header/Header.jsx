@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import "./Header.css"
 
+
 export const Header = () => {
     const [dark, setDark] = useState(localStorage.getItem('theme') === 'dark');
-    const [logo, setLogo] = useState(dark ? 'alazarStudioWhite.png' : 'alazarStudio.png')
+    const [logo, setLogo] = useState(dark ? 'alazarStudioWhite.svg' : 'alazarStudio.svg')
     const [burger, setBurger] = useState(dark ? 'menuBurgerWhite.svg' : 'menuBurger.svg')
 
     useEffect(() => {
@@ -14,7 +15,7 @@ export const Header = () => {
 
     const toggleTheme = () => {
         setDark(!dark);
-        setLogo(dark ? 'alazarStudio.png' : 'alazarStudioWhite.png');
+        setLogo(dark ? 'alazarStudio.svg' : 'alazarStudioWhite.svg');
         setBurger(dark ? 'menuBurger.svg' : 'menuBurgerWhite.svg');
     }
 

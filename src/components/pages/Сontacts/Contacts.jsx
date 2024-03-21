@@ -28,7 +28,6 @@ export const Contacts = () => {
                         <p>Aalborgring 4, 24109 Kie</p>
                     </div>
                 </div>
-
             </div>
 
             <Footer />

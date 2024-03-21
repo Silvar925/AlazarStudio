@@ -1,5 +1,5 @@
 import styles from "./ServiceCard.module.css"
-import { Arrow } from "../arrow/Arrow"
+import { Arrow } from "../../shared/arrow/Arrow";
 import { useState } from "react"
 
 export const ServiceCard = ({ count, color, title, img }) => {

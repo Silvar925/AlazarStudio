@@ -4,9 +4,19 @@ import { interpreterList, ourTeam, thanks, qualification } from "../../data"
 import { BaseCard } from "../../widgets/BaseCard/BaseCard"
 import { Footer } from "../../widgets/Footer/Footer"
 import { SwiperContainer } from "../../sections/SwiperContainer/SwiperContainer"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 export const AboutUS = () => {
+    const [iconTheme, setIconTheme] = useState('white')
+
+    useEffect(() => {
+        const theme = localStorage.getItem('theme');
+        if (theme === 'dark') {
+            setIconTheme('black');
+        } else {
+            setIconTheme('white');
+        }
+    }, []);
 
     return (
         <>
@@ -30,7 +40,9 @@ export const AboutUS = () => {
                     {
                         interpreterList.map((item, index) => {
                             return (
-                                < BaseCard key={index} img={item.img} imgHeight="100px" imgWidth="100px" text={item.text} />
+                                < BaseCard key={index} img={
+                                    iconTheme === 'white' ? item.img[0] : item.img[1]
+                                } imgHeight="100px" imgWidth="100px" text={item.text} />
                             )
                         })
                     }
@@ -57,8 +69,8 @@ export const AboutUS = () => {
                     </p>
                 </div>
 
-                <SwiperContainer info = {thanks}/>
-                <SwiperContainer info={qualification}/>
+                <SwiperContainer info={thanks} />
+                <SwiperContainer info={qualification} />
             </div>
 
             <Footer />

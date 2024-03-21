@@ -5,30 +5,6 @@
     padding: 0 10px;
 }
 
-.filter {
-    display: flex;
-    gap: 32px;
-}
-
-.filter a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border: 1px solid black;
-    padding: 10px 21px 10px 21px;
-    border-radius: 10px;
-    color: black;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    height: 32px;
-}
-
-.filter a:hover {
-    background-color: black;
-    color: white;
-}
-
 .gallery {
     display: flex;
     flex-direction: column;
@@ -70,4 +46,4 @@
     .row2 {
         flex-direction: column;
     }
-}   
+}

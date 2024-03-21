@@ -2,6 +2,7 @@ import styles from "./Home.module.css"
 import { Header } from "../../widgets/Header/Header"
 import { Filter } from "../../sections/Filter/Filter"
 import { Footer } from "../../widgets/Footer/Footer"
+import { gallery } from "../../data"
 
 export const Home = () => {
     return (
@@ -74,6 +75,54 @@ export const Home = () => {
                             </div>
 
                             <img src="home/img20.png" alt="#" />
+                        </div>
+                    </div>
+
+                    <div className={styles.rowBox}>
+                        <div className={styles.row}>
+                            <img src="home/img21.png" alt="#" />
+                            <img src="home/img22.png" alt="#" />
+                        </div>
+
+                        <div className={styles.row2}>
+                            <div className={styles.row2Col}>
+                                <img src="home/img23.png" alt="#" />
+                                <img src="home/img24.png" alt="#" />
+                            </div>
+
+                            <img src="home/img25.png" alt="#" />
+                        </div>
+                    </div>
+
+                    <div className={styles.rowBox}>
+                        <div className={styles.row}>
+                            <img src="home/img26.png" alt="#" />
+                            <img src="home/img27.png" alt="#" />
+                        </div>
+
+                        <div className={styles.row2}>
+                            <div className={styles.row2Col}>
+                                <img src="home/img28.png" alt="#" />
+                                <img src="home/img29.png" alt="#" />
+                            </div>
+
+                            <img src="home/img30.png" alt="#" />
+                        </div>
+                    </div>
+
+                    <div className={styles.rowBox}>
+                        <div className={styles.row}>
+                            <img src="home/img31.png" alt="#" />
+                            <img src="home/img32.png" alt="#" />
+                        </div>
+
+                        <div className={styles.row2}>
+                            <div className={styles.row2Col}>
+                                <img src="home/img33.png" alt="#" />
+                                <img src="home/img34.png" alt="#" />
+                            </div>
+
+                            <img src="home/img35.png" alt="#" />
                         </div>
                     </div>
 
