@@ -8,42 +8,4 @@
 .gallery {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
-
-.rowBox {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.row {
-    display: flex;
-    gap: 20px;
-}
-
-.row2 {
-    display: flex;
-    gap: 20px;
-}
-
-.row2Col {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-
-@media (min-width: 325px) and (max-width: 435px) {
-    .gallery {
-        width: 100%;
-    }
-
-    .row {
-        flex-direction: column;
-    }
-
-    .row2 {
-        flex-direction: column;
-    }
 }
