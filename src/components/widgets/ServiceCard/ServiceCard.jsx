@@ -11,13 +11,13 @@ export const ServiceCard = ({ count, color, title, img }) => {
                 <h2 style={{ color: color }}>{count}</h2>
                 <h3>{title}</h3>
 
-                <a href="#"
+                <div className={styles.button}
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
                     style={{ border: `1px solid ${color}`, backgroundColor: isHovered ? color : 'white' }}
                 >
                     <Arrow color={isHovered ? 'white' : color} />
-                </a>
+                </div>
 
             </div>
 

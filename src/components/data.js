@@ -295,84 +295,84 @@ export const gallery = [
     {
         name: 'Брендирование фестиваля кавказской кухни — КУНАК',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img22.png'
+        img: 'home/img21.png'
     },
 
     {
         name: 'Сайт и логотип Туристической базы Avalon',
         tags: ['Логотип и фирстиль', 'Сайты'],
-        img: 'home/img23.png'
+        img: 'home/img22.png'
     },
 
     {
         name: 'Презентация МСП Банк',
         tags: ['Презентация'],
-        img: 'home/img24.png'
+        img: 'home/img23.png'
     },
 
     {
         name: 'Журнал национального маршрута',
         tags: ['Рекламная продукция'],
-        img: 'home/img25.png'
+        img: 'home/img24.png'
     },
 
     {
         name: 'Сайт Амирана Дзугова',
         tags: ['Сайты'],
-        img: 'home/img26.png'
+        img: 'home/img25.png'
     },
 
     {
         name: 'Презентация Агентства бизнес-решений «Эврика»',
         tags: ['Презентации'],
-        img: 'home/img27.png'
+        img: 'home/img26.png'
     },
 
     {
         name: 'Презентация мобильного приложения Визитница',
         tags: ['Презентации'],
-        img: 'home/img28.png'
+        img: 'home/img27.png'
     },
 
     {
         name: 'Логотип РоспроектСтрой',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img29.png'
+        img: 'home/img28.png'
     },
 
     {
         name: 'Дизайн выставочного места ФППСК Ставрополь на международной выставке WorldFood Istanbul',
         tags: ['Рекламная продукция'],
-        img: 'home/img30.png'
+        img: 'home/img29.png'
     },
 
     {
         name: 'Сайт Пансионата для престарелых и инвалидов «Гармония»',
         tags: ['Сайты'],
-        img: 'home/img31.png'
+        img: 'home/img30.png'
     },
 
     {
         name: 'Логотип ProБизнес — интернет СМИ',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img32.png'
+        img: 'home/img31.png'
     },
 
     {
         name: 'Сайт Baysolt — сухие строительные смеси',
         tags: ['Сайты'],
-        img: 'home/img33.png'
+        img: 'home/img32.png'
     },
 
     {
         name: 'Логотип Jazz Men',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img34.png'
+        img: 'home/img33.png'
     },
 
     {
         name: 'Логотип AVAR',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img35.png'
+        img: 'home/img34.png'
     }
 ]

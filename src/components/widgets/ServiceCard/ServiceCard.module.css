@@ -20,7 +20,8 @@
     width: 420px;
 }
 
-.left a {
+.button {
+    cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 50%;
