@@ -1,4 +1,3 @@
-import { Header } from "../../widgets/Header/Header"
 import styles from "./AboutUS.module.css"
 import { interpreterList, ourTeam, thanks, qualification } from "../../data"
 import { BaseCard } from "../../widgets/BaseCard/BaseCard"
@@ -20,7 +19,6 @@ export const AboutUS = () => {
 
     return (
         <>
-            <Header />
             <div className={styles.container}>
                 <div className={styles.aboutUS}>
                     <h2>О нас</h2>
@@ -73,7 +71,6 @@ export const AboutUS = () => {
                 <SwiperContainer info={qualification} />
             </div>
 
-            <Footer />
         </>
     )
 }

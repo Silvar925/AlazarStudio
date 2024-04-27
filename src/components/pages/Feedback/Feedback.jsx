@@ -1,12 +1,8 @@
 import styles from "./Feedback.module.css"
-import { Header } from "../../widgets/Header/Header"
-import { Footer } from "../../widgets/Footer/Footer"
 
 export const Feedback = () => {
     return (
         <>
-            <Header />
-
             <div className={styles.container}>
                 <div className={styles.card}>
                     <h2>ОБРАТНАЯ СВЯЗЬ</h2>
@@ -33,8 +29,6 @@ export const Feedback = () => {
 
                 </div>
             </div>
-
-            <Footer />
         </>
     )
 }

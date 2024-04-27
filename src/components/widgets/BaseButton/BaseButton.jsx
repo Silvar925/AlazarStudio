@@ -1,7 +1,7 @@
 import styles from "./BaseButton.module.css"
 
-export const BaseButton = ({ text }) => {
+export const BaseButton = ({text}) => {
     return (
-        <a href="#" className={styles.button}>{text}</a>
+        <div style={{cursor: 'pointer'}} className={styles.button}>{text}</div>
     )
 }

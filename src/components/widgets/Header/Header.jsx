@@ -1,10 +1,9 @@
-import {useState, useEffect} from 'react';
-import {Link, useLocation} from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
 import "./Header.css"
 
 export const Header = () => {
     const location = useLocation().pathname
-
     const [dark, setDark] = useState(localStorage.getItem('theme') === 'dark');
     const [logo, setLogo] = useState(dark ? 'alazarStudioWhite.svg' : 'alazarStudio.svg')
     const [burger, setBurger] = useState(dark ? 'menuBurgerWhite.svg' : 'menuBurger.svg')
@@ -24,40 +23,34 @@ export const Header = () => {
         <header>
             <nav>
                 <ul>
-                    <li><Link to="/" className={location === "/" ? 'active' : undefined}>Главная</Link></li>
-                    <li><Link to="/service" className={location === "/service" ? 'active' : undefined}>Услуги</Link>
+                    <li><NavLink to="/">Главная</NavLink></li>
+                    <li><NavLink to="/service">Услуги</NavLink>
                     </li>
-                    <li><Link to="/aboutUS" className={location === "/aboutUS" ? 'active' : undefined}>О нас</Link></li>
+                    <li><NavLink to="/aboutUS">О нас</NavLink></li>
                 </ul>
 
-                <Link to="/"><img src={logo} alt="alazarStudioLogo"/></Link>
+                <div style={{ cursor: 'pointer' }}><img src={logo} alt="alazarStudioLogo" onClick={toggleTheme} /></div>
 
                 <div className="mobileHeader">
-                    <a href="#"><img src={burger} alt="#" className="dropbtn"/></a>
+                    <a href="#"><img src={burger} alt="#" className="dropbtn" /></a>
                     <div className="dropdown-content">
-                        <li><Link to="/">Главная</Link></li>
-                        <li><Link to="/service">Услуги</Link></li>
-                        <li><Link to="/aboutUS">О нас</Link></li>
-                        <li><Link to="/contacts">Контакты</Link></li>
-                        <li><Link to="/feedback">Обратная связь</Link></li>
-                        <li><Link to="/shop">Магазин</Link></li>
+                        <li><NavLink to="/">Главная</NavLink></li>
+                        <li><NavLink to="/service">Услуги</NavLink></li>
+                        <li><NavLink to="/aboutUS">О нас</NavLink></li>
+                        <li><NavLink to="/contacts">Контакты</NavLink></li>
+                        <li><NavLink to="/feedback">Обратная связь</NavLink></li>
+                        <li><NavLink to="/shop">Магазин</NavLink></li>
                     </div>
                 </div>
 
                 <ul>
-                    <li><Link to="/contacts" className={location === "/contacts" ? 'active' : undefined}>Контакты</Link>
+                    <li><NavLink to="/contacts">Контакты</NavLink>
                     </li>
-                    <li><Link to="/feedback" className={location === "/feedback" ? 'active' : undefined}>Обратная
-                        связь</Link></li>
-                    <li><Link to="/shop" className={location === "/shop" ? 'active' : undefined}>Магазин</Link></li>
+                    <li><NavLink to="/feedback">Обратная
+                        связь</NavLink></li>
+                    <li><NavLink to="/shop">Магазин</NavLink></li>
                 </ul>
-            </nav>
-
-            <div style={{display: 'flex', alignItems: 'center'}}>
-                <button className="btnTheme" onClick={toggleTheme}>
-                    {dark ? 'Dark' : 'Light'}
-                </button>
-            </div>
+            </nav>В
         </header>
     );
 };

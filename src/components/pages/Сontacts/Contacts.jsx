@@ -1,12 +1,8 @@
 import styles from "./Contacts.module.css"
-import { Header } from "../../widgets/Header/Header"
-import { Footer } from "../../widgets/Footer/Footer"
 
 export const Contacts = () => {
     return (
         <>
-            <Header />
-
             <div className={styles.container}>
                 <div className={styles.title}>
                     <h2>КОНТАКТЫ</h2>
@@ -29,8 +25,6 @@ export const Contacts = () => {
                     </div>
                 </div>
             </div>
-
-            <Footer />
         </>
     )
 }

@@ -11,6 +11,23 @@
     flex-direction: column;
 }
 
+.gridContainer {
+    display: grid;
+    grid-template-columns: 620px 620px 620px;
+    grid-template-rows: repeat(4, 350px);
+    gap: 10px;
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
 .galleryRow {
     display: flex;
     flex-direction: column;
@@ -18,7 +35,25 @@
 }
 
 .galleryCard {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
+
+.infoCard {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.infoCard p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+
+@media (min-width: 320px) and (max-width: 435px) {}

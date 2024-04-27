@@ -1,18 +1,17 @@
 import styles from "./Shop.module.css"
-import { Header } from "../../widgets/Header/Header"
 import { Filter } from "../../sections/Filter/Filter"
 import { Card } from "../../widgets/Card/Card"
 import { BaseButton } from "../../widgets/BaseButton/BaseButton"
 import { shop } from "../../data"
-import { Footer } from "../../widgets/Footer/Footer"
+import { useLocation } from "react-router-dom";
 
 export const Shop = () => {
+    const location = useLocation().pathname;
+
     return (
         <>
-            <Header />
-
             <div className={styles.container}>
-                <Filter />
+                <Filter url={location} />
 
                 <div className={styles.cardList}>
 
@@ -34,8 +33,6 @@ export const Shop = () => {
                 </div>
 
             </div>
-
-            <Footer />
         </>
     )
 }

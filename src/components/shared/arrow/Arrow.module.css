@@ -4,6 +4,8 @@
     justify-content: center;
     height: 100px;
     width: 100px;
+    border-radius: 50%;
+    background-color: var(--text-color);
 }
 
 @media (min-width: 325px) and (max-width: 435px) {

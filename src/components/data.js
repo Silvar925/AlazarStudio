@@ -95,7 +95,6 @@ export const interpreterList = [
     },
 ]
 
-
 export const ourTeam = [
     {
         img: 'aboutUS/outTeam/Azamat.png',
@@ -175,204 +174,239 @@ export const gallery = [
     {
         name: 'Фирменный стиль Всероссийского фестиваля «Притяжение»',
         tags: ['Логотип и фирстиль', 'Рекламная продукция'],
-        img: 'home/img1.png'
+        img: 'home/img1.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Сайт Шале «Зимняя сказка»',
         tags: ['Сайты'],
-        img: 'home/img2.png'
+        img: 'home/img2.png',
+        type: 'Сайт'
     },
 
     {
         name: 'Логотип Luna',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img3.png'
+        img: 'home/img3.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Сайт Центра «Мой бизнес» Карачаево-Черкесия',
         tags: ['Сайты'],
-        img: 'home/img4.png'
+        img: 'home/img4.png',
+        type: 'Сайт'
     },
 
     {
         name: 'Логотип Универсиады 2023 г.Черкесск',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img5.png'
+        img: 'home/img5.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Презентация Торгово-промышленной палаты Карачаево-Черкесской Республики',
         tags: ['Презентации'],
-        img: 'home/img6.png'
+        img: 'home/img6.png',
+        type: 'Презентация'
     },
 
     {
         name: 'Логотип ASMIR',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img7.png'
+        img: 'home/img7.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Сайт Центра молодежного инновационного творчества г.Черкесск',
         tags: ['Сайты'],
-        img: 'home/img8.png'
+        img: 'home/img8.png',
+        type: 'Сайт'
     },
 
     {
         name: 'Логотип АНО «Моя карьера»',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img9.png'
+        img: 'home/img9.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Логотип CORONA DONER',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img10.png'
+        img: 'home/img10.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Презентация Карачаево-Черкесской Республики',
         tags: ['Презентации'],
-        img: 'home/img11.png'
+        img: 'home/img11.png',
+        type: 'Презентация'
     },
 
     {
         name: 'Сайт Агентства бизнес-решений «Эврика»',
         tags: ['Сайты'],
-        img: 'home/img12.png'
+        img: 'home/img12.png',
+        type: 'Сайт'
     },
 
     {
         name: 'Сайт Студии национальной моды Заремы Аджиевой',
         tags: ['Сайты'],
-        img: 'home/img13.png'
+        img: 'home/img13.png',
+        type: 'Сайт'
     },
 
     {
         name: 'Презентация КЧР на Международном форуме-выставке «Россия» ВДНХ',
         tags: ['Презентации'],
-        img: 'home/img14.png'
+        img: 'home/img14.png',
+        type: 'Презентация'
     },
 
     {
         name: 'Фирменный стиль Министерства молодежи Карачаево-Черкесской Республики',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img15.png'
+        img: 'home/img15.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Брендирование форума «Мой бизнес. Молодежь будущего»',
         tags: ['Логотип и фирстиль', 'Рекламная продукция'],
-        img: 'home/img16.png'
+        img: 'home/img16.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Логотип «Путешествуй в Карачаево-Черкесию»',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img17.png'
+        img: 'home/img17.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Логотип и сайт ФК Нарт',
         tags: ['Логотип и фирстиль', 'Сайты'],
-        img: 'home/img18.png'
+        img: 'home/img18.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Сайт БРИТАНИКА KIDS',
         tags: ['Сайты'],
-        img: 'home/img19.png'
+        img: 'home/img19.png',
+        type: 'Сайт'
     },
 
     {
         name: 'Сайт Dи-ссерт',
         tags: ['Сайты'],
-        img: 'home/img20.png'
+        img: 'home/img20.png',
+        type: 'Сайт'
     },
 
     {
         name: 'Брендирование фестиваля кавказской кухни — КУНАК',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img21.png'
+        img: 'home/img21.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Сайт и логотип Туристической базы Avalon',
         tags: ['Логотип и фирстиль', 'Сайты'],
-        img: 'home/img22.png'
+        img: 'home/img22.png',
+        type: 'Сайт'
     },
 
     {
         name: 'Презентация МСП Банк',
         tags: ['Презентация'],
-        img: 'home/img23.png'
+        img: 'home/img23.png',
+        type: 'Презентация'
     },
 
     {
         name: 'Журнал национального маршрута',
         tags: ['Рекламная продукция'],
-        img: 'home/img24.png'
+        img: 'home/img24.png', 
+        type: 'Рекламная продукция'
     },
 
     {
         name: 'Сайт Амирана Дзугова',
         tags: ['Сайты'],
-        img: 'home/img25.png'
+        img: 'home/img25.png',
+        type: 'Сайт'
     },
 
     {
         name: 'Презентация Агентства бизнес-решений «Эврика»',
         tags: ['Презентации'],
-        img: 'home/img26.png'
+        img: 'home/img26.png',
+        type: 'Презентация'
     },
 
     {
         name: 'Презентация мобильного приложения Визитница',
         tags: ['Презентации'],
-        img: 'home/img27.png'
+        img: 'home/img27.png',
+        type: 'Презентация'
     },
 
     {
         name: 'Логотип РоспроектСтрой',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img28.png'
+        img: 'home/img28.png',
+        type: 'Логотип'
+
     },
 
     {
         name: 'Дизайн выставочного места ФППСК Ставрополь на международной выставке WorldFood Istanbul',
         tags: ['Рекламная продукция'],
-        img: 'home/img29.png'
+        img: 'home/img29.png',
+        type: 'Рекламная продукция'
     },
 
     {
         name: 'Сайт Пансионата для престарелых и инвалидов «Гармония»',
         tags: ['Сайты'],
-        img: 'home/img30.png'
+        img: 'home/img30.png',
+        type: 'Сайт'
     },
 
     {
         name: 'Логотип ProБизнес — интернет СМИ',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img31.png'
+        img: 'home/img31.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Сайт Baysolt — сухие строительные смеси',
         tags: ['Сайты'],
-        img: 'home/img32.png'
+        img: 'home/img32.png',
+        type: 'Сайт'
     },
 
     {
         name: 'Логотип Jazz Men',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img33.png'
+        img: 'home/img33.png',
+        type: 'Логотип'
     },
 
     {
         name: 'Логотип AVAR',
         tags: ['Логотип и фирстиль'],
-        img: 'home/img34.png'
+        img: 'home/img34.png',
+        type: 'Логотип'
     }
 ]
