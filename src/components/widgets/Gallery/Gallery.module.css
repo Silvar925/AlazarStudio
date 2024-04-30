@@ -1,0 +1,67 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 620px 620px 620px;
+    grid-template-rows: repeat(4, 350px);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    height: 708px;
+}
+
+.rowColumn {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.card1 {
+    width: 1260px;
+}
+
+.card2 {
+    flex-grow: 1;
+}
+
+.columnItem {
+    width: 620px;
+}
+
+.rowColumn .columnItem {
+    flex-basis: 50%;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 435px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .card1 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .columnItem {
+        width: 100%;
+        height: 400px;
+    }
+
+    .rowColumn {
+        height: 100%;
+    }
+}

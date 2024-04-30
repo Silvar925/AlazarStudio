@@ -50,7 +50,7 @@ export const Header = () => {
                         связь</NavLink></li>
                     <li><NavLink to="/shop">Магазин</NavLink></li>
                 </ul>
-            </nav>В
+            </nav>
         </header>
     );
 };

@@ -1,0 +1,9 @@
+.tag {
+    display: flex;
+    padding: 10px;
+    background-color: #7248FD;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Montserrat';
+    text-align: center;
+}

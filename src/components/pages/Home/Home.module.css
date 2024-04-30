@@ -11,22 +11,6 @@
     flex-direction: column;
 }
 
-.gridContainer {
-    display: grid;
-    grid-template-columns: 620px 620px 620px;
-    grid-template-rows: repeat(4, 350px);
-    gap: 10px;
-}
-
-.item {
-    padding: 10px;
-    border: 1px solid black;
-}
-
-.big {
-    grid-column: span 2;
-    grid-row: span 2;
-}
 
 .galleryRow {
     display: flex;

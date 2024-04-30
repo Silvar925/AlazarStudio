@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.container p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: white;
+    font-size: 24px;
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 435px) {
+    .container p {
+        font-size: 14px;
+    }
+}

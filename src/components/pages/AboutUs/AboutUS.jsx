@@ -1,9 +1,9 @@
 import styles from "./AboutUS.module.css"
-import { interpreterList, ourTeam, thanks, qualification } from "../../data"
-import { BaseCard } from "../../widgets/BaseCard/BaseCard"
-import { Footer } from "../../widgets/Footer/Footer"
-import { SwiperContainer } from "../../sections/SwiperContainer/SwiperContainer"
-import { useState, useEffect } from "react"
+import {interpreterList, ourTeam, thanks, qualification} from "../../data"
+import {BaseCard} from "../../widgets/BaseCard/BaseCard"
+import {Footer} from "../../widgets/Footer/Footer"
+import {SwiperContainer} from "../../sections/SwiperContainer/SwiperContainer"
+import {useState, useEffect} from "react"
 
 export const AboutUS = () => {
     const [iconTheme, setIconTheme] = useState('white')
@@ -31,7 +31,7 @@ export const AboutUS = () => {
                 </div>
 
                 <div className={styles.banner}>
-                    <img src="aboutUS/aboutUS.png" alt="aboutUS" />
+                    <img src="aboutUS/aboutUS.png" alt="aboutUS"/>
                 </div>
 
                 <div className={styles.interpreterList}>
@@ -40,7 +40,7 @@ export const AboutUS = () => {
                             return (
                                 < BaseCard key={index} img={
                                     iconTheme === 'white' ? item.img[0] : item.img[1]
-                                } imgHeight="100px" imgWidth="100px" text={item.text} />
+                                } imgHeight="100px" imgWidth="100px" text={item.text}/>
                             )
                         })
                     }
@@ -51,7 +51,8 @@ export const AboutUS = () => {
                         {
                             ourTeam.map((item, index) => {
                                 return (
-                                    <BaseCard key={index} img={item.img} imgHeight="495px" imgWidth="395px" text={item.name} specialization={item.specialization} />
+                                    <BaseCard key={index} img={item.img} imgHeight="495px" imgWidth="395px"
+                                              text={item.name} specialization={item.specialization}/>
                                 )
                             })
                         }
@@ -61,14 +62,16 @@ export const AboutUS = () => {
                 <div className={styles.ourMissionСontainer}>
                     <p>НАША МИССИЯ</p>
                     <p>
-                        помогать бизнесу становиться более эффективным и конкурентоспособным за счет использования современных
-                        информационных технологий. Мы стремимся создавать продукты и решения, которые будут полезны и востребованы на
+                        помогать бизнесу становиться более эффективным и конкурентоспособным за счет использования
+                        современных
+                        информационных технологий. Мы стремимся создавать продукты и решения, которые будут полезны и
+                        востребованы на
                         рынке, и помогаем нашим клиентам достигать успеха и развития в своей отрасли.
                     </p>
                 </div>
 
-                <SwiperContainer info={thanks} />
-                <SwiperContainer info={qualification} />
+                <SwiperContainer info={thanks}/>
+                <SwiperContainer info={qualification}/>
             </div>
 
         </>

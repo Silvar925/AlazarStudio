@@ -1,14 +1,15 @@
+import { Link } from "react-router-dom"
 import styles from "./Card.module.css"
 
-export const Card = ({width, height, img, textTitle, children}) => {
+export const Card = ({ width, height, img, textTitle, children, to }) => {
     if (window.innerWidth >= 320 && window.innerWidth <= 435) {
         width = '300px'
     }
 
     return (
-        <div className={styles.cardContainer}>
+        <Link to={to} className={styles.cardContainer}>
             <div className={styles.card}
-                 style={{width: width, height: height, backgroundImage: `url(${img})`, backgroundPositionX: '-239px'}}>
+                style={{ width: width, height: height, backgroundImage: `url(${img})`, backgroundPositionX: '-239px' }}>
                 <div className={styles.buttonList}>
                     {children}
                 </div>
@@ -21,6 +22,6 @@ export const Card = ({width, height, img, textTitle, children}) => {
                     <h2>{textTitle[1]}</h2>
                 </div>
             }
-        </div>
+        </Link>
     )
 }
